@@ -127,7 +127,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(28, 28, 28, 0.4), rgba(28, 28, 28, 0.4)),
+  background: linear-gradient(135deg, rgba(10, 10, 10, 0.95), rgba(26, 26, 26, 0.9)),
     url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&q=80') center/cover no-repeat;
   background-attachment: fixed;
 }
@@ -138,14 +138,14 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(28, 28, 28, 0.3);
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), transparent);
 }
 
 .hero-content {
   position: relative;
   z-index: 10;
   text-align: center;
-  color: var(--color-white);
+  color: var(--color-text-primary);
   animation: fadeInUp 1s ease;
 }
 
@@ -155,6 +155,8 @@ body {
   font-weight: 700;
   margin-bottom: 1rem;
   letter-spacing: 2px;
+  color: var(--color-dark-gold);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero-subtitle {
@@ -163,15 +165,16 @@ body {
   margin-bottom: 2.5rem;
   letter-spacing: 3px;
   text-transform: uppercase;
+  color: var(--color-text-primary);
 }
 
 .hero-button {
   padding: 1rem 2.5rem;
   font-family: var(--font-body);
   font-size: 1rem;
-  color: var(--color-white);
+  color: var(--color-dark-gold);
   background: transparent;
-  border: 2px solid var(--color-gold);
+  border: 2px solid var(--color-dark-gold);
   cursor: pointer;
   transition: background 0.3s ease, color 0.3s ease;
   letter-spacing: 1px;
@@ -179,8 +182,8 @@ body {
 }
 
 .hero-button:hover {
-  background: var(--color-gold);
-  color: var(--color-white);
+  background: var(--color-dark-gold);
+  color: var(--color-black);
 }
 
 .hero-scroll-indicator {
@@ -190,7 +193,7 @@ body {
   transform: translateX(-50%);
   background: none;
   border: none;
-  color: var(--color-white);
+  color: var(--color-dark-gold);
   cursor: pointer;
   animation: bounce 2s infinite;
 }
