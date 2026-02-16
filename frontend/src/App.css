@@ -485,7 +485,7 @@ body {
   font-family: var(--font-heading);
   font-size: 2rem;
   margin-bottom: 1.5rem;
-  color: var(--color-charcoal);
+  color: var(--color-dark-gold);
 }
 
 .modal-meta {
@@ -494,24 +494,24 @@ body {
   gap: 0.75rem;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid var(--color-grey);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
 }
 
 .meta-item {
   font-size: 0.875rem;
-  color: #666;
+  color: var(--color-text-secondary);
 }
 
 .modal-description {
   font-size: 1rem;
   line-height: 1.8;
-  color: #555;
+  color: var(--color-text-secondary);
 }
 
 /* Services Section */
 .services-section {
   padding: 8rem 0;
-  background: var(--color-white);
+  background: var(--color-dark-bg);
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease, transform 0.8s ease;
