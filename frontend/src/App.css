@@ -388,7 +388,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to top, rgba(28, 28, 28, 0.9), transparent);
+  background: linear-gradient(to top, rgba(10, 10, 10, 0.95), transparent);
   padding: 2rem;
   transform: translateY(10px);
   opacity: 0;
@@ -403,13 +403,13 @@ body {
 .project-title {
   font-family: var(--font-heading);
   font-size: 1.25rem;
-  color: var(--color-white);
+  color: var(--color-text-primary);
   margin-bottom: 0.5rem;
 }
 
 .project-location {
   font-size: 0.875rem;
-  color: var(--color-gold);
+  color: var(--color-dark-gold);
 }
 
 /* Project Modal */
