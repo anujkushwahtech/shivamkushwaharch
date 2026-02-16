@@ -58,7 +58,7 @@ const Contact = ({ isVisible }) => {
               <MapPin size={20} />
               <div>
                 <p className="contact-label">Location</p>
-                <p className="contact-value">India</p>
+                <p className="contact-value">Bhopal, India</p>
               </div>
             </div>
             <button onClick={openWhatsApp} className="whatsapp-button">
