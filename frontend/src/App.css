@@ -353,12 +353,14 @@ body {
 .project-card {
   cursor: pointer;
   overflow: hidden;
-  background: var(--color-white);
+  background: var(--color-card-bg);
   transition: transform 0.3s ease;
+  border: 1px solid rgba(212, 175, 55, 0.1);
 }
 
 .project-card:hover {
   transform: translateY(-5px);
+  border-color: rgba(212, 175, 55, 0.3);
 }
 
 .project-image-wrapper {
