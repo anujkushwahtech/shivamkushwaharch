@@ -7,10 +7,13 @@
 }
 
 :root {
-  --color-white: #FFFFFF;
-  --color-charcoal: #1C1C1C;
-  --color-grey: #E5E5E5;
-  --color-gold: #C6A75E;
+  --color-black: #0A0A0A;
+  --color-dark-bg: #1A1A1A;
+  --color-card-bg: #252525;
+  --color-dark-gold: #D4AF37;
+  --color-light-gold: #F5D76E;
+  --color-text-primary: #E8E8E8;
+  --color-text-secondary: #B8B8B8;
   --font-heading: 'Playfair Display', serif;
   --font-body: 'Lato', sans-serif;
 }
