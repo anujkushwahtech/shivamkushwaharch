@@ -40,6 +40,9 @@ const About = ({ isVisible }) => {
                 src="https://customer-assets.emergentagent.com/job_shivam-architecture/artifacts/hxdns877_WhatsApp%20Image%202026-02-19%20at%201.54.42%20PM.jpeg" 
                 alt="Shivam Kushwah - Architect" 
               />
+              <div className="architect-name-overlay">
+                <span className="architect-name-text">Architect Shivam Kushwah</span>
+              </div>
             </div>
           </div>
         </div>
