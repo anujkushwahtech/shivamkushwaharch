@@ -23,7 +23,7 @@ export const projectsData = [
     type: 'Residential',
     location: 'India',
     year: '2023',
-    image: 'https://customer-assets.emergentagent.com/job_shivam-architecture/artifacts/opkyi8og_ChatGPT%20Image%20Feb%2016%2C%202026%2C%2011_22_11%20PM.png',
+    image: 'https://customer-assets.emergentagent.com/job_shivam-architecture/artifacts/xoz9cabh_ChatGPT%20Image%20Feb%2016%2C%202026%2C%2011_11_55%20PM.png',
     description: 'This luxury villa is inspired by Mediterranean architecture, characterized by sloped tiled roofs, textured stone columns, and expansive verandas. The project emphasizes warmth, hospitality, and relaxed luxury living. Large glass openings seamlessly connect interior spaces with the swimming pool and landscaped surroundings. Evening lighting enhances architectural depth, highlighting textures and structural elements.'
   },
   {
