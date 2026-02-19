@@ -46,6 +46,7 @@ const Portfolio = () => {
       <Testimonials isVisible={isVisible.testimonials} />
       <Contact isVisible={isVisible.contact} />
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 };
