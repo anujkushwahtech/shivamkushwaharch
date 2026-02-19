@@ -645,12 +645,13 @@ body {
 
 .testimonial-card {
   padding: 2.5rem;
-  background: var(--color-grey);
+  background: var(--color-card-bg);
   position: relative;
+  border: 1px solid rgba(212, 175, 55, 0.2);
 }
 
 .testimonial-quote {
-  color: var(--color-gold);
+  color: var(--color-dark-gold);
   margin-bottom: 1.5rem;
   opacity: 0.3;
 }
@@ -658,7 +659,7 @@ body {
 .testimonial-text {
   font-size: 1rem;
   line-height: 1.8;
-  color: #555;
+  color: var(--color-text-secondary);
   margin-bottom: 2rem;
 }
 
@@ -673,24 +674,25 @@ body {
   height: 60px;
   border-radius: 50%;
   object-fit: cover;
+  border: 2px solid var(--color-dark-gold);
 }
 
 .author-name {
   font-family: var(--font-heading);
   font-size: 1rem;
-  color: var(--color-charcoal);
+  color: var(--color-text-primary);
   margin-bottom: 0.25rem;
 }
 
 .author-role {
   font-size: 0.875rem;
-  color: #666;
+  color: var(--color-text-secondary);
 }
 
 /* Contact Section */
 .contact-section {
   padding: 8rem 0;
-  background: var(--color-grey);
+  background: var(--color-black);
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease, transform 0.8s ease;
