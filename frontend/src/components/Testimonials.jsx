@@ -7,19 +7,19 @@ const Testimonials = ({ isVisible }) => {
       name: 'Rajesh Sharma',
       role: 'Property Developer',
       text: 'Working with Shivam was an absolute pleasure. His attention to detail and innovative approach transformed our commercial project into a landmark building. Highly recommended!',
-      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&h=150&fit=crop'
+      image: 'https://images.unsplash.com/photo-1649433658557-54cf58577c68?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDV8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjBwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NzE1MDMwMDV8MA&ixlib=rb-4.1.0&q=85&w=150&h=150&fit=crop'
     },
     {
       name: 'Priya Mehta',
       role: 'Homeowner',
       text: 'Shivam designed our dream home with such precision and creativity. He listened to our needs and delivered beyond our expectations. The space is both beautiful and functional.',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop'
+      image: 'https://images.pexels.com/photos/30004323/pexels-photo-30004323.jpeg?w=150&h=150&fit=crop'
     },
     {
       name: 'Dr. Amit Patel',
       role: 'Institution Director',
       text: 'The academic building Shivam designed for our institution perfectly balances heritage aesthetics with modern functionality. His professionalism and expertise are unmatched.',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop'
+      image: 'https://images.pexels.com/photos/30004315/pexels-photo-30004315.jpeg?w=150&h=150&fit=crop'
     }
   ];
 
