@@ -37,8 +37,8 @@ const About = ({ isVisible }) => {
           <div className="about-image">
             <div className="about-image-wrapper">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop" 
-                alt="Shivam Kushwah" 
+                src="https://customer-assets.emergentagent.com/job_shivam-architecture/artifacts/hxdns877_WhatsApp%20Image%202026-02-19%20at%201.54.42%20PM.jpeg" 
+                alt="Shivam Kushwah - Architect" 
               />
             </div>
           </div>
