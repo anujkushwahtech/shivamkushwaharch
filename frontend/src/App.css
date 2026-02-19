@@ -1010,12 +1010,13 @@ body {
     left: -100%;
     width: 70%;
     height: 100vh;
-    background: var(--color-white);
+    background: var(--color-dark-bg);
     flex-direction: column;
     padding: 5rem 2rem;
     gap: 1.5rem;
     transition: left 0.3s ease;
-    box-shadow: 2px 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 0 20px rgba(212, 175, 55, 0.1);
+    border-right: 1px solid rgba(212, 175, 55, 0.2);
   }
 
   .header-nav.mobile-open {
