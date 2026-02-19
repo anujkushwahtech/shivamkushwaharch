@@ -3,8 +3,6 @@ import { MessageCircle, X } from 'lucide-react';
 
 const FloatingWhatsApp = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const phoneNumber = '917725870348';
-  const message = 'Hello, I would like to discuss a project with you.';
 
   useEffect(() => {
     // Show button after a small delay for smooth entry
@@ -16,7 +14,7 @@ const FloatingWhatsApp = () => {
   }, []);
 
   const handleClick = () => {
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = 'https://wa.me/917725870348?text=Hello%20I%20want%20to%20discuss%20a%20project';
     window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
   };
 
